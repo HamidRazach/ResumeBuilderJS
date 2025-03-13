@@ -1,0 +1,396 @@
+.Journey-responsive {
+  display: block;
+  width: 100%;
+  height: calc(100vh - 353px);
+  overflow-y: auto;
+}
+.universities-responsive {
+  display: block;
+  width: 100%;
+  height: calc(100vh - 367px);
+  overflow-y: auto;
+}
+.user-responsive {
+  display: block;
+  width: 100%;
+  /* height: calc(100vh - 144px); */
+  height: calc(100vh - 149px);
+  overflow-y: auto;
+}
+.settings-responsive {
+  display: block;
+  width: 100%;
+  height: calc(100vh - 334px);
+  overflow-y: auto;
+}
+.no_data_found {
+  height: calc(100vh - 328px);
+}
+.no_data_found_dasbord_user{
+  height: calc(100vh - 158px);
+}
+.no_data_found_dasbord_admin{
+  height: calc(100vh - 73px);
+}
+.no_data_found_settings {
+  height: calc(100vh - 278px);
+}
+.no_data_found_users {
+  height: calc(100vh - 82px);
+}
+.empty-text-holder {
+  height: calc(100vh - 328px);
+}
+.empty-text-holder.dashboard {
+  height:unset
+}
+.empty-text-holder.dashboard-last-child {
+  height: calc(100vh - 440px);
+}
+
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .universities-responsive {
+    height: calc(100vh - 534px);
+  }
+} 
+@media (min-width: 900px) and (max-width: 100px) {
+  .universities-responsive {
+    height: calc(100vh - 548px);
+  }
+} 
+@media (min-width: 400px) and (max-width: 500px) {
+  .universities-responsive {
+    height: calc(100vh - 480px);
+  }
+} 
+@media (min-width: 350px) and (max-width: 400px) {
+  .universities-responsive {
+    height: calc(100vh - 490px);
+  }
+} 
+@media (min-width: 300px) and (max-width: 350px) {
+  .universities-responsive {
+    height: calc(100vh - 510px);
+  }
+} 
+@media (max-width: 500px) {
+  .Journey-responsive {
+    height: calc(100vh - 466px);
+  }
+} 
+@media (min-width: 500px) and (max-width: 600px) {
+  .Journey-responsive {
+    height: calc(100vh - 440px);
+  }
+} 
+@media (min-width: 700px) and (max-width: 800px) {
+  .Journey-responsive {
+    height: calc(100vh - 418px);
+  }
+} 
+@media (min-width: 800px) and (max-width: 1000px) {
+  .Journey-responsive {
+    height: calc(100vh - 396px);
+  }
+} 
+
+/* @media (min-width: 1000px) and (max-width: 1200px) {
+  .universities-responsive {
+    height: calc(100vh - 417px);
+  }
+} */
+
+/*
+@media (min-width: 400px) and (max-width: 480px) {
+  .Journey-responsive {
+    height: calc(100vh - 469px);
+  }
+  .universities-responsive {
+    height: calc(100vh - 469px);
+  }
+}
+@media (min-width: 350px) and (max-width: 400px) {
+  .Journey-responsive {
+    height: calc(100vh - 469px);
+  }
+  .universities-responsive {
+    height: calc(100vh - 469px);
+  }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+  .Journey-responsive {
+    height: calc(100vh - 449px);
+  }
+  .universities-responsive {
+    height: calc(100vh - 449px);
+  }
+} */
+
+/* @media (max-width: 1024px) {
+  .Journey-responsive {
+    height: calc(100vh - 406px);
+  }
+  .universities-responsive {
+    height: calc(100vh - 406px);
+  }
+} */
+
+
+/* //=========resume */
+.resumehead{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #000;
+  padding: 0px;
+}
+.resumeheading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+.resume-head {
+  display: flex;
+  justify-content: space-between;
+}
+.column h2 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  font-family: "Inter";
+  margin-bottom: 0px !important;
+  color: #000000;
+}
+.resume-content .resume-para1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.resume-content .resume-para1 p {
+margin-bottom: 0px;
+}
+#resume-pdf .modal-content p {
+    line-height: 1.4em;
+    font-weight: 500;
+    font-family: 'Inter';
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.resume-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.resume-heading h2 {
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  font-family: "Inter";
+}
+.resume-heading p {
+  margin-bottom: 0px;
+}
+.resume-information {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.resume-information-head h2 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  font-family: "Inter";
+  margin-bottom: 0px;
+  color: #000000;
+  max-width: fit-content;
+  border-bottom: 2px solid #000000;
+}
+.resume-information-content p {
+  margin-bottom: 0px;
+}
+.resume-content {
+  display: flex;
+  justify-content: space-between;
+}
+.resume-para2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#pdf_content table thead tr th {
+  border-bottom: 2px solid #000000;
+}
+.resume-modal::-webkit-scrollbar {
+  width: 10px;
+}
+.resume-modal::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+}
+.resume-modal::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
+#pdf_content table thead tr th h2 {
+  margin-bottom: 0px;
+}
+@media (max-width: 1370px) {
+  #pdf_content table thead tr th h2 {
+    margin-bottom: 0px;
+    font-size: 22px;
+  }
+  .resume-information-head h2 {
+    font-size: 22px;
+  }
+  .resume-heading h2 {
+    font-size: 22px;
+  }
+  #resume-pdf .modal-content p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1024px) {
+  #pdf_content table thead tr th h2 {
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+  .resume-information-head h2 {
+    font-size: 20px;
+  }
+  .resume-heading h2 {
+    font-size: 20px;
+  }
+  #resume-pdf .modal-content p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 991px) {
+  #pdf_content table thead tr th h2 {
+    margin-bottom: 0px;
+    font-size: 17px;
+  }
+  .resume-information-head h2 {
+    font-size: 17px;
+  }
+  .resume-heading h2 {
+    font-size: 17px;
+  }
+  #resume-pdf .modal-content p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  #pdf_content table thead tr th h2 {
+    margin-bottom: 0px;
+    font-size: 16px;
+  }
+  .resume-information-head h2 {
+    font-size: 16px !important;
+  }
+  .resume-heading h2 {
+    font-size: 16px;
+  }
+  #resume-pdf .modal-content p {
+    font-size: 14px;
+  }
+  #pdf_content table thead tr th h2 {
+    white-space: nowrap;
+}
+}
+
+.test-scenarios-holder ol li{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ol {
+  list-style: none;
+  counter-reset: steps;
+}
+ol li {
+  counter-increment: steps;
+}
+ol li::before {
+  content: counter(steps);
+  margin-right: 0.5rem;
+  background: #038294;
+  color: #fff;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+  line-height: 4em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ol ol li::before {
+  background: darkorchid;
+}
+.landingpage-info-holder2 .landing-dimensions{
+  line-height: 2 !important;
+  font-size: 22px !important;
+}
+.landing-dimensions ol{padding-left: 0px;}
+.landing-dimensions ol li::before {
+  content: counter(steps);
+  margin-right: 0.5rem;
+  background: #038294;
+  color: #fff;
+  width: 1.6em;
+  height: 1.6em;
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+  line-height: 1.6em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.tags-input-resume-holder > div .rti--input{
+  width:  100% !important;
+  max-width:  100% !important;
+}
+
+
+.scrollable-container {
+  max-height: 250px; 
+  overflow-y: auto;
+}
+
+/* For WebKit browsers */
+.scrollable-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px; 
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 10px; 
+  border: 2px solid #f1f1f1; 
+}
+
+.fa-chevron-up{
+  width: 20px;
+  height: auto;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+}
+
+.dashboard-dropdowns.progresssssss #dropdown-basic{
+  color: #949494 !important;
+}
